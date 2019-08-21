@@ -1,0 +1,50 @@
+section#info-card {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 0 30px
+}
+
+section#info-card article {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+section#info-card article header {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#info-card article header .author-name span {
+    font-size: 13px;
+}
+
+section#info-card article .author-info p {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+section#info-card article footer {
+    padding: 20px;
+}
+
+section#info-card article footer .actions {
+    margin-bottom: 10px;
+}
+
+section#info-card article footer .actions button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+section#info-card article footer .actions img {
+    height: 20px;
+    margin-right: 10px
+}
