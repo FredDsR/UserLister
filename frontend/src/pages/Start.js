@@ -4,6 +4,7 @@ import './Start.css';
 
 import github from '../assets/github-logo.svg';
 import linkedin from '../assets/linkedin-logo.svg';
+import facebook from '../assets/facebook-logo.svg';
 
 class Start extends Component {
     render() {
@@ -16,7 +17,7 @@ class Start extends Component {
                         </div>
                     </header>
                     <div className="author-info">
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;Olá, meu nome está aí em cima e minhas redes estão logo no final deste card. No momento em que esta aplicação foi finalizada (dd/mm/aaaa) estou cursando o segundo semestre de Ciência da Computação pela UFPel. Caso interesse, toda minha formação está no meu perfil do LinkedIn.</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;Olá, meu nome está aí em cima e minhas redes estão logo no final deste card. No momento em que esta aplicação foi finalizada (19/08/2019) estou cursando o segundo semestre de Ciência da Computação pela UFPel. Caso interesse, toda minha formação está no meu perfil do LinkedIn.</p>
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;Esta aplicação se resume em um CRUD utilizando React.js no frontend, utilizando apenas HTML e CSS na estilização. Já no backend, a aplicação roda em Node.js, utilizando Express para o gerenciamento das requisições HTTP e com um banco de dados MongoDB Atlas.</p>
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;Espero que gostem.</p>
                     </div>
@@ -27,6 +28,9 @@ class Start extends Component {
                         </a>
                         <a href="https://www.linkedin.com/in/frederico-reckziegel/" target="blank">
                             <img src={linkedin} alt=""/>
+                        </a>
+                        <a href="https://www.facebook.com/FredDSReck" target="blank">
+                            <img src={facebook} alt=""/>
                         </a>
                     </div>
                     </footer>
